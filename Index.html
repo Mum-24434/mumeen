@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        body{
+            background-image:url(image2.jpg);
+            height:100vh;
+            background-position:center;
+            background-size:cover;
+            
+                        opacity:1;
+        }
+        h1{
+            font-size:90px;
+            font-family:georgia;
+            font-weight:bolder;
+        }
+       .me{
+           background-color:#d3d3d3;
+           width:900px;
+           padding:35px;
+           position:absolute;
+           top:600px;
+           left:10px;
+           text-align:center; 
+           margin-top:15px;   
+           border-color:black;
+           border-radius:30px;
+                            }
+                            body{
+                                animation-name:animate;
+           animation-duration:0.7s;
+           animation-iteration-count:infinite;
+           animation-direction:alternate;   
+                            }
+           @keyframes animate{
+               from{
+                   transfrom:translateY(-500px)   
+                               }
+              to{
+                  transform:translateY(0)              }                 
+           }
+                
+               ul{
+                   list-style:none;
+               }
+               ul li a{
+                   color:white;
+                   background-color:black;   
+                   width:100px;
+                   font-size:90px;
+                   padding:20px ;
+                   text-decoration:none;     
+                   border-width:3px;
+                   border-color:black;
+                   border-radius:20px;   
+                   border-style:solid;                   
+               }
+               ul li a:hover{
+                 background-color:blue;
+                   font-size:100px;
+                             }
+    </style>
+</head>
+<body>
+    <div id="con">
+   <div class="me"><h1> Kingdom Animalae</h1>
+    <div class="button"><ul>
+       <li> <a href="second.html">Click to continue</a></li>
+   </ul> </div></div></div>
+</body>
+</html>
